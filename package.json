@@ -1,0 +1,19 @@
+{
+  "name": "node-sqlite3-promise",
+  "version": "0.0.1",
+  "description": "node-sqlite3 Promise wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://me_mxxnru@bitbucket.org/me_mxxnru/node-sqlite3-promise.git"
+  },
+  "keywords": [
+    "sqlite3"
+  ],
+  "author": "me@mxxn.ru",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/me_mxxnru/node-sqlite3-promise#readme"
+}
