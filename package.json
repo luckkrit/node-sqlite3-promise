@@ -15,5 +15,8 @@
   ],
   "author": "me@mxxn.ru",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/me_mxxnru/node-sqlite3-promise#readme"
+  "homepage": "https://bitbucket.org/me_mxxnru/node-sqlite3-promise#readme",
+  "dependencies": {
+    "sqlite3": "^3.1.4"
+  }
 }
