@@ -86,11 +86,11 @@ class Sqlite3Promise {
     }
 
     serialize() {
-        return this._db.then(db => new Promise((resolve, reject) => db.serialize(() => resolve())));
+        return this._db.then(db => promisate(db.serialize.bind(db)));
     }
 
     parallelize() {
-        return this._db.then(db => new Promise((resolve, reject) => db.parallelize(() => resolve())))
+        return this._db.then(db => promisate(db.parallelize.bind(db)));
     }
 }
 
