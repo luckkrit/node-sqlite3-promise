@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://me_mxxnru@bitbucket.org/me_mxxnru/node-sqlite3-promise.git"
+    "url": "git+https://github.com/mxxn/node-sqlite3-promise.git"
   },
   "keywords": [
     "sqlite3"
   ],
   "author": "me@mxxn.ru",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/me_mxxnru/node-sqlite3-promise#readme",
+  "homepage": "https://github.com/mxxn/node-sqlite3-promise",
   "dependencies": {
     "sqlite3": "^3.1.4"
   }
