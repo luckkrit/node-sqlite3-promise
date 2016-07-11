@@ -1,7 +1,7 @@
 const sqlite3 = require('sqlite3');
 
 function promisate(method, ...param) {
-    return new Promise((resolve, reject) => method(...param, (err, ...result) => err === null ? resolve(...result) : reject(err)));
+    return new Promise((resolve, reject) => method(...param, (err, ...result) => err === null || err === undefined ? resolve(...result) : reject(err)));
 }
 
 class Statement {
