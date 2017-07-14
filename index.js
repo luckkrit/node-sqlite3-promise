@@ -78,7 +78,7 @@ class Sqlite3Promise {
     }
 
     exec(sql) {
-        return this._db.then(db => promisate(db.exec.bind(db), sql, ...param));
+        return this._db.then(db => promisate(db.exec.bind(db), sql));
     }
 
     prepare(sql, ...param) {
